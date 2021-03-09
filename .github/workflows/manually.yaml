@@ -6,9 +6,10 @@ name: Node.js CI manually
 on:
   workflow_dispatch:
     inputs:
-      environment:
-        description: 'git-tag'
+      git-tag:
+        description: "Path to test script"
         required: true
+        default: 'master'
 
 jobs:
   build:
