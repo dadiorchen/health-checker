@@ -12,4 +12,7 @@ describe("index", () => {
   it("test in test", () => {
   });
 
+  it("test commit", () => {
+  });
+
 });
