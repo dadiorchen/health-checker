@@ -12,7 +12,7 @@ describe("index", () => {
   it("test in test", () => {
   });
 
-  it("test commit", () => {
+  it("test hash2", () => {
   });
 
 });
